@@ -14,5 +14,5 @@ async def scan_specific_device(mac):
                 specification = load_specification(data[0])
             values = await get_values(specification["specification"], data)
             print(values)
-            save_to_file(values)
+            await save_to_file(values)
             await asyncio.sleep(0.01)
