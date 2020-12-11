@@ -1,0 +1,49 @@
+{
+    "version": 5,
+    "specification": {
+        "DataFormat": {
+            "bytes": 1
+        },
+        "Temp": {
+            "bytes": 2,
+            "increment": 0.005,
+            "signed": true
+        },
+        "Humidity": {
+            "bytes": 2,
+            "increment": 0.0025
+        },
+        "Pressure": {
+            "bytes": 2
+        },
+        "AcelerationX": {
+            "bytes": 2,
+            "increment": 1,
+            "signed": true
+        },
+        "AcelerationY": {
+            "bytes": 2,
+            "increment": 1,
+            "signed": true
+        },
+        "AcelerationZ": {
+            "bytes": 2,
+            "increment": 1,
+            "signed": true
+        },
+        "Voltaje": {
+            "bytes": 2,
+            "increment": 1
+        },
+        "Motion": {
+            "bytes": 1
+        },
+        "MeasurementNumber": {
+            "bytes": 2
+        },
+        "Mac": {
+            "bytes": 6,
+            "increment": 1
+        }
+    }
+}
